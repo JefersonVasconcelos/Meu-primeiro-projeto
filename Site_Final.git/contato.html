@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+     <meta charset="UTF-8">
+     <title>Cliente</title>
+     <link rel="stylesheet" type="text/css" href="css/folhadeestilo.css">
+</head>
+
+<body class="color-page">
+    <div class="container-principal" id="topo">
+    	<header>
+     	  	  <div class="logo">
+     	  	  	<a href="index.html">
+     	  	  		<IMG src="imagem/logo.png" alt="logo site">
+     	  	  	</a>
+     	  	 </div>
+
+     	  	   <nav>
+     	  	       <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#topo">Cliente</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+        </header>
+
+            <div class="img-título"><img src="imagem/cliente.jpg" alt="imagem de cliente"></div>
+
+        <section id="text-contato">
+            <form name="meu_form" id="meu-form">
+                <p class="nome">
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" id="nomeid" placeholder="Ex: Fulano da Silva" required= "required" name="nome" />
+                </p>
+                <p class="fone">
+                    <label for="fone">Fone:</label><br>                
+                    <input type="phone" id="foneid" placeholder="(xx)xxxx-xxxx" name="fone" />
+                </p>
+                <p>  
+                     <label for="email">Email:</label><br>
+                     <input type="email" id="emalid" placeholder="fulano@mail.com" name="email" required="required" />
+                </p>
+                <p>
+                    <textarea placeholder="mensagem" required="required"></textarea>
+                </p>
+                <button type="submit" form="meu_form">Enviar</button>
+            </form>
+
+            <div id="conta-data">
+                 <h4>Free-Desenvolvimento de Sites</h4>
+                 <h5><img src="imagem/endereco.png" alt="endereço"><br>Avenida Novos Conhecimentos nº 2021</h5>
+                 <h5><img src="imagem/telefone.jpg" alt="telefone"><br>+55 51 9999-9999</h5>
+                 <h5><img src="imagem/email.jpg" alt="email"><br>contato@free.com.br</h5>
+                 <h5><img src="imagem/facebook.png" alt="facebook"><br>facebook.com/free</h5>
+                 <h5><img src="imagem/instagram.jpg" alt="instagram"><br>@freedev</h5>
+            </div>     
+        </section>       
+
+
+        </div>
+</body>
+</html>            
